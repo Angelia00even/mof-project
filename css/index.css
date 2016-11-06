@@ -8,6 +8,9 @@ body,
   height: 100%;
   font-size: .12rem;
   overflow: hidden;
+  background: url("../img/1.jpg") no-repeat 50% 50% content-box  ;
+  background-size: cover;
+
 }
 .box {
   position: relative;
@@ -21,7 +24,8 @@ body,
   height: .5rem;
   line-height: .5rem;
   text-align: center;
-  background: lightblue;
+  background: linen;
+  border-radius: 50%;
 }
 .box .temp {
   position: absolute;
